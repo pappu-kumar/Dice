@@ -34,29 +34,28 @@ h3{
 }
 
 @media (max-width: 800px){
-
     body{
         text-align: center;
         padding-right: 0px;
     }
-    
     h1{
-        padding-top: 50px;
-        font-size: 100px;
+        padding-top: 50px 0px 0px 0px;
+        font-size: 80px;
     }
 
     h3{
-        font-size: 40px;
+        font-size: 20px;
     }
 
     .social-icons{
         text-align: center;
-        padding: 40px 5px 0px 5px;
+        padding: 50px 2px 0px 2px;
         margin: 0px;
+        font-size: 20px;
     }
-    
+
     .img1{
-        width: 300px;
+        width: 250px;
     }
 
 }
