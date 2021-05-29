@@ -3,50 +3,60 @@ body{
     background-color: rgb(81, 79, 92);
     text-align: center;
     color: rgb(226, 191, 191);
-    padding-right: 20px;
+    padding-right: 50px;
 }
 
 h1{
     
     font-family: 'Playball', cursive;
-    font-size: 80px;
-    padding: 0px 15px 35px 15px;
+    font-size: 120px;
+    padding: 50px 15px 35px 15px;
     margin: 0px;
 }
 
 h3{
     font-family: 'Indie Flower', cursive;
     font-weight: lighter;
-    padding: 0px 0px 0px;
-    margin: 0px;
     letter-spacing: 5px;
 }
 
 .img1{
-    width: 200px;
+    width: 350px;
 }
 
 .social-icons{
     color: rgb(128, 128, 136);
-    padding: 5px 5px 0px 5px;
     text-align: end;
+    letter-spacing: 20px;
+    font-size: 30px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
 }
 
-@media (max-width: 400px){
+@media (max-width: 800px){
 
+    body{
+        text-align: center;
+        padding: auto;
+    }
+    
     h1{
         padding-top: 50px;
-        font-size: 50px;
+        font-size: 100px;
     }
 
     h3{
-        font-size: 20px;
+        font-size: 40px;
     }
 
     .social-icons{
         text-align: center;
-        padding: 20px 5px 0px 5px;
+        padding: 40px 5px 0px 5px;
         margin: 0px;
+    }
+    
+    .img1{
+        width: 300px;
     }
 
 }
